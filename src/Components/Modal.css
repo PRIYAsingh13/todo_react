@@ -8,5 +8,18 @@
     left: 50%;
 }
 .create-todo{
-    
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-evenly;
+   height: 90%;
+   margin: 4%;
+}
+.all-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.all-btn, button {
+    /* display: flex; */
+    justify-content: start;
+    gap: 10px;
 }
